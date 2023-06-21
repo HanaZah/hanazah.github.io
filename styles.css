@@ -1,0 +1,50 @@
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: rgb(207, 255, 214);
+}
+
+.title {
+  font-size: 60px;
+}
+
+.subtitle {
+  font-size: 35px;
+}
+
+.title, 
+.subtitle {
+  color: blue;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 420px;
+  max-height: 300px;
+}
+
+.main {
+  margin: 0;
+  max-width: 600px;
+}
+
+.intro {
+  font-size: 18px;
+}
+
+.adventures {
+  border: 4px black ridge;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
